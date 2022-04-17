@@ -12,25 +12,43 @@
     <!-- <link rel="stylesheet" href="css/style.css"> -->
 </head>
 <body>
-    <div class="container">
+    <div class="container.fluit">
         <div class="row">
-            <div class="col-md-2">
+            <div class="col-sm-3 col-lg-1">
                 <img src="assets/img/icon.png" class="img-fluid" alt="voyager_Icon">
             </div>
-            <div class="col-md-10">
+            <div class="col-sm-9 col-lg-11">
                 <header>
-                    <h1>Villes Touristiques en Colombie</h1>
+                    <h1 class="text-center">Villes Touristiques en Colombie</h1>
                 </header>
             </div>
-            <div class="col-md-10">
-                <nav>
-                    <ul class="list-inline">
-                        <li class="list-inline-item"><a href="index.html">Accueil</a></li>
-                        <li class="list-inline-item"><a href="pages/villes.html">Villes</a></li>
-                        <li class="list-inline-item"><a href="pages/a_propos.html">À propos de nous</a></li>
-                        <li class="list-inline-item"><a href="pages/contactez.html">Contactez-nous</a></li>
-                        <li class="list-inline-item"><a href="pages/inscrire.html">Inscrire-vous</a></li>
-                    </ul>
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Menu de recherche</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="pages/villes.html">Villes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="pages/a_propos.html">À propos de nous</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="pages/contactez.html">Contactez-nous</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="pages/inscrire.html">Inscrire-vous</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </nav>
             </div>
         </div>
@@ -134,13 +152,13 @@
             </table>
         </section>
     </div>
-    <div>
-        <footer>
-            <img src="assets/img/icon.png" alt="voyager_icon">
-            <img src="assets/img/instagram.gif" alt="ig">
-            <img src="assets/img/linkedin.gif" alt="linkedin">
-            <img src="assets/img/facebook.gif" alt="fb">
-            <img src="assets/img/whatsapp.gif" alt="wa">
+    <div class="text-center">
+        <footer class="row">
+            <img src="assets/img/icon.png" class="col-sm-1" alt="voyager_icon">
+            <img src="assets/img/instagram.gif" class="col-sm-1" alt="ig">
+            <img src="assets/img/linkedin.gif" class="col-sm-1" alt="linkedin">
+            <img src="assets/img/facebook.gif" class="col-sm-1" alt="fb">
+            <img src="assets/img/whatsapp.gif" class="col-sm-1" alt="wa">
         </footer>
     </div>
     <!-- Javascript local -->
